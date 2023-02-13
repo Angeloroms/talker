@@ -1,0 +1,410 @@
+@import url('https://fonts.goggleapis.com/css2?family=poppins:wght@300;400;700&display=swap');
+
+body{
+    width: 100;
+    height: 100;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: 'poppins';
+    font-family: 'calibri';
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.nav{
+background: #1706ad;
+color: #FFFFFF;
+padding:  .5em 0;
+}
+
+header{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+header #icon{
+	color: white;
+	font-size: 30px;
+	padding: 0 5px;
+	line-height: 10px;
+	float: right;
+	margin-right: 15px;
+	cursor: pointer;
+    display: block;
+}
+
+header ul{
+    position: fixed;
+    width: 25%;
+	height: 25%;
+	background: #1706ad;
+	top: 78px;
+	right: -100%;
+	text-align: center;
+	transition: all .5s;
+	display: block;
+    padding: 1em;
+}
+
+header ul.show{
+    right: 0;
+}
+
+header li {
+    padding: .8em;
+    font-size: 1em;
+    color: #f1f1f1;
+}
+
+header a{
+    color: #f1f1f1;
+}
+
+.slogan{
+    color: #212121;
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    background: #1b08c5;
+    color: #f1f1f1;
+}
+
+.second-nav{
+    display: grid;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+}
+
+.second-nav::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #E5D5FA;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container img{
+    max-width: 500px;
+}
+
+.heading{
+    text-transform: capitalize;
+    color: #1b08c5;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .5em;
+}
+
+.subtitle{
+    text-transform: capitalize;
+    color: #212121;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+
+.int-second-nav{
+    padding: 1em;
+    text-align: center;
+}
+
+.int-second-cont{
+    font-size: 1em;
+    color: #BDBDBD;  
+  }
+  
+
+
+.second-cont{
+  font-size: 1em;
+  color: #8b8a8a; 
+  padding: .5em; 
+  
+}
+
+.total-nav{
+    background: #1b08c5;
+    padding: 1em;
+}
+
+.third-nav ul li{
+    background: #1706ad;
+    padding: 2em;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    justify-content: center;
+    color: #f1f1f1;
+  }
+
+
+  .second-navigation{
+      background: #BBDEFB;
+  }
+
+  .first-container{
+      padding: 1em;
+      display: flex;
+  }
+
+  .first-container b{
+      text-align: left;
+      color: #212121;
+  }
+
+  .second-container{
+      text-align: center;
+  }
+
+  #interactions-form{
+    width: 250px;
+    height: 20px;
+    outline: none;
+    border-left: #BBDEFB;
+    border-top: #BBDEFB;
+    border-right: #BBDEFB;
+    font-size: 1em;
+    margin:  .5rem 0;
+    background: #BBDEFB;
+    border-color: #212121;
+  }
+
+  #interactions-form::placeholder{
+    color: #838282;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+  #interactions-form-btn{
+    width: 60px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: #1976D2;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: .8em;
+}
+
+.read{
+    text-align: center;
+    padding: 1em;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.confessions{
+    background: none;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+}
+
+.c-container-1{
+    background: #2196F3;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.c-container-2{
+    background: #2196F3;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.message-container{
+    font-size: 1em;
+    padding-bottom: .5em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#comment-form-btn{
+    width: 200px;
+    height: 25px;
+    border-radius: 4em;
+    background-color: #1976D2;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    font-size: .8em;
+}
+
+.fourth-nav{
+    background: none;
+    position: relative;
+}
+
+.fourth-container{
+    text-align: center;
+    padding: 1em;
+}
+
+table {
+    background: white;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  td {
+    text-align: center;
+  }
+  td img {
+    width: 20px;
+  }
+
+  .footer-container{
+      background: #212121;
+  }
+
+.footer-container a{
+      color: #FFFFFF;
+  }
+
+  footer{
+   text-align: center;
+   display: grid;
+   padding: 1em;
+   color: #FFFFFF;
+  }
+
+  .footer-heading b{
+      font-size: 1.5em;
+  }
+
+  #footer-form{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#footer-form::placeholder{
+    color: #b1b1b1;
+    text-align: center;
+}
+#footer-form-btn{
+    width:100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #1976D2;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+#footer-form-btn:hover{
+cursor:pointer;
+background-color: darkblue;
+transition: all 0.4s ease-out;
+}
+
+
+@media screen and (min-width: 850px){
+
+  header #icon{
+        display: none;
+    }
+
+    header ul{
+        position: relative;
+        display: flex;
+        background: none;
+        width: 0%;
+        height: 0cm;
+        top: 0px;
+	    left: 0;
+        padding: 0.3;
+    }
+
+    header li{
+        margin-top: -1.3em;
+        font-size: 1.2em;
+        padding-right: 2em;
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: 40% auto;
+    justify-content: center;
+}
+
+.total-nav{
+    margin-top: -2em;
+    padding: 2em;
+}
+
+.third-nav ul{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+    margin-bottom: -2em;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.footer-form{
+    margin-top: -1em;
+}
+
+.int-second-nav{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.first-container{
+    justify-content: center;
+    padding: 2em;
+}
+
+.first-container b{
+    padding-right:2em;
+}
+
+.confessions{
+    display: flex;
+    justify-content: space-between;
+    padding:  1em ;
+    
+}
+
+.c-container-1{
+    padding: 1em;
+    margin-right: 1em;
+}
+}
