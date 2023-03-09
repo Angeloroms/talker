@@ -27,11 +27,10 @@ img{
 .nav{
 background: #1706ad;
 color: #FFFFFF;
-padding:  .5em 0;
 }
 
 header{
-    padding: 1em;
+    padding: 1.2em;
     display: flex;
     justify-content: space-between;
 }
@@ -39,16 +38,17 @@ header{
 header .logo{
     color: white;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 header #icon{
 	color: white;
-	font-size: 30px;
+	font-size: 16.5px;
 	padding: 0 5px;
 	line-height: 10px;
 	float: right;
-	margin-right: 15px;
+	margin-right: 10px;
+	margin-top: 3px;
 	cursor: pointer;
     display: block;
 }
@@ -58,7 +58,7 @@ header ul{
     width: 25%;
 	height: 25%;
 	background: #1706ad;
-	top: 78px;
+	top: 50px;
 	right: -100%;
 	text-align: center;
 	transition: all .5s;
@@ -84,9 +84,13 @@ header a{
     color: #212121;
     text-align: center;
     padding: 2em;
-    font-size: 2em;
+    font-size: 1.5em;
     background: #1b08c5;
     color: #f1f1f1;
+}
+
+.slogan i{
+	font-size:.7em;
 }
 
 .second-nav{
@@ -100,10 +104,10 @@ header a{
 .second-nav::before{
     content: "";
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    background: #E5D5FA;
+    background: #fafafa;
     top: 0;
     left: 0;
     z-index: -1;
@@ -116,15 +120,15 @@ header a{
     text-transform: capitalize;
     color: #1b08c5;
     font-weight: bold;
-    font-size: 1em;
-    padding: .5em;
+    font-size: .7em;
+    padding: .3.5em;
 }
 
 .subtitle{
     text-transform: capitalize;
     color: #212121;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 
@@ -142,7 +146,7 @@ header a{
 
 
 .second-cont{
-  font-size: 1em;
+  font-size: .7em;
   color: #8b8a8a; 
   padding: .5em; 
   
@@ -151,6 +155,7 @@ header a{
 .total-nav{
     background: #1b08c5;
     padding: 1em;
+	font-size: .7em;
 }
 
 .third-nav ul li{
@@ -159,8 +164,11 @@ header a{
     border-radius: 2em;
     margin-bottom: 1em;
     text-align: center;
-    justify-content: center;
     color: #f1f1f1;
+  }
+  
+  .icon-container img{
+	  max-width: 20px;
   }
 
 
@@ -176,6 +184,7 @@ header a{
   .first-container b{
       text-align: left;
       color: #212121;
+	  font-size:.7em;
   }
 
   .second-container{
@@ -183,13 +192,13 @@ header a{
   }
 
   #interactions-form{
-    width: 250px;
+    width: 150px;
     height: 20px;
     outline: none;
     border-left: #BBDEFB;
     border-top: #BBDEFB;
     border-right: #BBDEFB;
-    font-size: 1em;
+    font-size: .7em;
     margin:  .5rem 0;
     background: #BBDEFB;
     border-color: #212121;
@@ -202,14 +211,14 @@ header a{
 }
 
   #interactions-form-btn{
-    width: 60px;
-    height: 25px;
+    width: 40px;
+    height: 20px;
     border-radius: 4px;
     background-color: #1976D2;
     outline: none;
     border: none;
     color: #fff;
-    font-size: .8em;
+    font-size: .5em;
 }
 
 .read{
@@ -239,7 +248,7 @@ header a{
 }
 
 .message-container{
-    font-size: 1em;
+    font-size: .7em;
     padding-bottom: .5em;
     font-weight: bold;
     color: #FFFFFF;
@@ -253,7 +262,7 @@ header a{
     outline: none;
     border: none;
     color: #ffffff;
-    font-size: .8em;
+    font-size: .7em;
 }
 
 .fourth-nav{
@@ -263,17 +272,23 @@ header a{
 
 .fourth-container{
     text-align: center;
-    padding: 1em;
+    padding: .7em;
 }
 
 table {
     background: white;
     justify-content: center;
     width: 100%;
+	margin-bottom:1em;
+  }
+  
+  tr{
+	font-size: 1em;
   }
   
   td {
     text-align: center;
+	font-size: .7em;
   }
   td img {
     width: 20px;
@@ -295,32 +310,40 @@ table {
   }
 
   .footer-heading b{
-      font-size: 1.5em;
+      font-size: 1.2em;
+  }
+  
+  .footer-heading{
+	  font-size: .7em;
+  }
+  
+  .footer-form b{
+	  font-size:.7em;
   }
 
   #footer-form{
-    width: 250px;
-    height: 40px;
+    width: 200px;
+    height: 30px;
     border-radius: 4px;
     outline: none;
     border: none;
     padding-left: 0.5rem;
-    font-size: 1rem;
-    margin-bottom: 1rem;
+    font-size: .7em;
+    margin-bottom: 1em;
 }
 #footer-form::placeholder{
     color: #b1b1b1;
     text-align: center;
 }
 #footer-form-btn{
-    width:100px;
-    height: 40px;
+    width: 40px;
+    height: 20px;
     border-radius: 4px;
     background-color: #1976D2;
     outline: none;
     border: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: .5em;
 }
 #footer-form-btn:hover{
 cursor:pointer;
